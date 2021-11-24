@@ -1,0 +1,36 @@
+html{
+    min-height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgrey;
+}
+
+svg{
+    background-color: lightgray;
+}
+
+#canvas{
+    min-height: 600px;
+    min-width: 1200px;
+}
+
+#legend{
+    min-width: 1200px;
+    min-height: 50px;
+}
+
+.cell:hover{
+    fill: white;
+}
+
+#tooltip{
+    font-size: 2em;
+    visibility: hidden;
+    height: auto;
+    width: auto;
+}
